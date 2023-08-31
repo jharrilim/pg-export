@@ -1,0 +1,13 @@
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[package]
+name = "pg-export"
+version = "0.1.0"
+edition = "2021"
+authors = ["Joseph Harrison-Lim"]
+
+[dependencies]
+clap = { version = "4.3.8", features = ["derive"] }
+clap-stdin = "0.2.0"
+la-arena = "0.3.1"
+postgres = "0.19.5"
+serde = "1.0.164"
